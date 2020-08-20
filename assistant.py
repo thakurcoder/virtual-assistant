@@ -1,6 +1,6 @@
 import os
-#name = input('enter your name sir : ')
-#print('Hello',name.upper())
+name = input('enter your name sir : ')
+print('Hello',name.upper())
 
 
 ooo = '''
@@ -22,7 +22,7 @@ print(ooo)
 a =  True
 while a:
 
-    t = 'sir what can i do for you sir : '
+    t = name + ' sir what can i do for you sir : '
     print(t,end='')
     p = input()
 
