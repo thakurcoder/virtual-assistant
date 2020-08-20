@@ -14,7 +14,7 @@ I can do few things for you
   I can use linkidin for you
   I can open whatsapp web for you
   I can open game for you
-
+  I can open notepad for you
   You can simply type 'exit' or 'quit' or say me 'bye' if you wish to close the program
 '''
 
