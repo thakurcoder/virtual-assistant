@@ -22,7 +22,7 @@ print(ooo)
 a =  True
 while a:
 
-    t = name + ' sir what can i do for you sir : '
+    t = name+' sir what can i do for you sir : '
     print(t,end='')
     p = input()
 
@@ -56,8 +56,10 @@ while a:
     elif ('open' in p or 'OPEN' in p or 'paly' or 'PLAY' in p or 'run' in p or 'RUN' in p)and 'game'in p or 'GAME' in p:
         os.system('chrome   https://www.crazygames.com/game/word-wipe')
     
+    elif ('open' in p or 'write' in p or'OPEN' in p or 'WRITE' in p ) and 'notepad' in p :
+        os.system('notepad')
     
-    elif 'exit' in p or 'quit' or 'bye' in p: 
+    elif 'exit' in p or 'quit' in p or 'bye' in p: 
         a = False
 
     else:
